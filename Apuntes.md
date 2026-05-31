@@ -710,6 +710,8 @@ Que pasa si pierdo request o reply?
 |        No         |   No implementa   | No implementa |       No se        |
 |        Si         |        No         | Re-ejecucion  | Por lo menos 1 vez |
 |        Si         |        Si         |  Retransmion  |     Solo 1 vez     |
+
+
 OBS -> Hay que tener encuenta si al realizar una operación cambia el estado de un sistema, si la operación es idempotente, no pasa nada si recibo la operacion duplicada.
 
 
